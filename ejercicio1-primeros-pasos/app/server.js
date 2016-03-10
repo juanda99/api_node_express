@@ -16,7 +16,6 @@ router.get('/', function(req, res) {
 // es bueno que haya un prefijo, sobre todo por el tema de versiones de la API
 app.use('/api', router);
 
-// START THE SERVER
-// =============================================================================
+// iniciamos nuestro servidor
 app.listen(port);
 console.log('API escuchando en el puerto ' + port);
