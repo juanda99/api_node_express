@@ -1,0 +1,29 @@
+{
+  "name": "api_node_express",
+  "version": "1.0.0",
+  "description": "API Rest usando node.js y express",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanda99/api_node_express.git"
+  },
+  "keywords": [
+    "api",
+    "rest",
+    "express",
+    "mongoose"
+  ],
+  "author": "juanda <juandacorreo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juanda99/api_node_express/issues"
+  },
+  "homepage": "https://github.com/juanda99/api_node_express#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
