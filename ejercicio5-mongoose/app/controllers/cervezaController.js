@@ -67,11 +67,11 @@ module.exports = {
           message: 'No hemos encontrado la cerveza'
         })
       }
-      cerveza.nombre = req.body.nombre
-      cerveza.descripcion =  req.body.descripcion
-      cerveza.graduacion = req.body.graduacion
-      cerveza.envase = req.body.envase
-      cerveza.precio = req.body.precio
+      cerveza.Nombre = req.body.nombre
+      cerveza.Descripción =  req.body.descripcion
+      cerveza.Graduacion = req.body.graduacion
+      cerveza.Envase = req.body.envase
+      cerveza.Precio = req.body.precio
       cerveza.save(function(err, cerveza){
         if(err) {
           return res.status(500).json({
